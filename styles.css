@@ -1,0 +1,103 @@
+body{
+	
+	background: rgb(0, 51, 255);
+}
+.fundo_azul { 
+	background-color:rgba(0, 163.1999659538269, 255, 0.6800000071525574);
+	width:636px;
+	height:745px;
+	position:absolute;
+	left:86px;
+	top:111px;
+	border-top-left-radius:50px;
+	border-top-right-radius:50px;
+	border-bottom-left-radius:50px;
+	border-bottom-right-radius:50px;
+}
+.fundo_branco { 
+	background-color:rgba(255, 255, 255, 1);
+	width:791px;
+	height:745px;
+	position:absolute;
+	left:556px;
+	top:111px;
+	border-top-right-radius:50px;
+	border-bottom-right-radius: 50px;
+	box-shadow: 0px 10px 25px black;
+}
+.texto_msg1 { 
+	color:rgba(255, 255, 255, 1);
+	width:377px;
+	height:56px;
+	position:absolute;
+	left:132px;
+	top:349px;
+	font-family:Inter;
+	text-align:left;
+	font-size:40px;
+	letter-spacing:0;
+}
+.texto_msg2 { 
+	color:rgb(255, 255, 255);
+	width:354px;
+	height:95px;
+	position:absolute;
+	left:155px;
+	top:438px;
+	font-family:Inter;
+	text-align:left;
+	font-size:35px;
+	letter-spacing:0;
+}
+
+.btn { 
+	box-shadow:0px 4px 4px rgba(0, 0, 0, 0.25);
+	background-color:rgba(0, 163.1999659538269, 255, 0.7099999785423279);
+	width:240px;
+	height:72px;
+	position:absolute;
+	left:816px;
+	top:659px;
+	border-radius: 40px;
+	cursor: pointer;
+}
+.cri_cont{
+position: absolute;
+left:730px;
+top: 750px;
+font-size: 30px;
+}
+
+.lgn_user { 
+	background-color:rgba(239.0625, 239.0625, 239.0625, 1);
+	width:466px;
+	height:63px;
+	position:absolute;
+	left:699px;
+	top:478px;
+	border-radius: 15px;
+	font-size: 30px;
+	padding: 14px 20px;
+}
+.psw_user{ 
+	background-color:rgba(239.0625, 239.0625, 239.0625, 1);
+	width:466px;
+	height:63px;
+	position:absolute;
+	left:699px;
+	top:560px;
+	border-radius: 15px;
+	font-size: 30px;
+	padding: 14px 20px;
+}
+
+.bicos_img { 
+	width:589px;
+	height:133px;
+	position:absolute;
+	left:662px;
+	top:289px;
+	background-image:url(images/free_bicos_logo_trans_1.png);
+	background-repeat:no-repeat;
+	background-size:cover;
+}
